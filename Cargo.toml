@@ -1,0 +1,12 @@
+[package]
+edition = "2024"
+name = "lottery"
+version = "0.1.0"
+
+[dependencies]
+clap = {version = "4.5.47", features = ["derive"]}
+dirs = "6.0.0"
+ring = "0.17.14"
+rt-format = "0.3.1"
+serde = {version = "1.0.219", features = ["derive"]}
+serde_json = "1.0.143"

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "EuroMillions",
+        "id": "euromillions",
+        "description": "EuroMillions is a transnational lottery requiring players to select five main numbers from 1 to 50 and two additional 'Lucky Star' numbers from 1 to 12. Draws are held twice a week, on Tuesdays and Fridays, with jackpots starting at €17 million and rolling over if not won. The game is known for its large jackpots and multiple prize tiers, making it popular across participating European countries.",
+        "country": "Multiple European countries",
+        "draw_days": [
+            "Tuesday",
+            "Friday"
+        ],
+        "pools": [
+            {
+                "count": 5,
+                "range": [
+                    1,
+                    50
+                ]
+            },
+            {
+                "count": 2,
+                "range": [
+                    1,
+                    12
+                ]
+            }
+        ],
+        "format": "[ {0:02} {1:02} {2:02} {3:02} {4:02} ]  [ {5:02} {6:02} ]"
+    },
+    {
+        "name": "Lotto 6/49",
+        "id": "lotto649",
+        "description": "Lotto 6/49 is a popular Canadian lottery game where players select six numbers from a pool of 49. Draws are held twice a week, on Wednesdays and Saturdays. The game offers a guaranteed jackpot of at least $5 million, which can roll over if not won. In addition to the jackpot, there are multiple prize tiers for matching fewer numbers, making it a favorite among lottery enthusiasts in Canada.",
+        "country": "Canada",
+        "draw_days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "pools": [
+            {
+                "count": 6,
+                "range": [
+                    1,
+                    49
+                ]
+            }
+        ],
+        "format": "[ {0:02} {1:02} {2:02} {3:02} {4:02} {5:02} ]"
+    },
+    {
+        "name": "Lotto 6/45",
+        "id": "lotto645",
+        "description": "Lotto 6/45 is a popular game in Austria where players select six numbers from a pool of 45. Draws are held twice a week, on Wednesdays and Saturdays. The game offers a variety of prize tiers, with the jackpot starting at a minimum amount and rolling over if not won. Lotto 6/45 is known for its straightforward format and is enjoyed by many lottery enthusiasts in Austria.",
+        "country": "Austria",
+        "draw_days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "pools": [
+            {
+                "count": 6,
+                "range": [
+                    1,
+                    45
+                ]
+            }
+        ],
+        "format": "[ {0:02} {1:02} {2:02} {3:02} {4:02} {5:02} ]"
+    },
+    {
+        "name": "Powerball (US)",
+        "id": "powerball_us",
+        "description": "Powerball is a widely popular lottery game in the United States, known for its massive jackpots that can reach hundreds of millions of dollars. Players select five main numbers from a pool of 69 and one Powerball number from a separate pool of 26. Draws are held twice a week, on Wednesdays and Saturdays. The game offers multiple prize tiers, with the jackpot starting at $20 million and rolling over if not won.",
+        "country": "United States",
+        "draw_days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "pools": [
+            {
+                "count": 5,
+                "range": [
+                    1,
+                    69
+                ]
+            },
+            {
+                "count": 1,
+                "range": [
+                    1,
+                    26
+                ]
+            }
+        ],
+        "format": "[ {0:02} {1:02} {2:02} {3:02} {4:02} ]  [ {5:02} ]"
+    }
+]
